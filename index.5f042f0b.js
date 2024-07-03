@@ -1,0 +1,2 @@
+var e=document.querySelectorAll("input"),t=function(e){for(var t="".concat(e[0].toUpperCase()),n=1;n<e.length;n+=1){var a=e[n];if(a.toUpperCase()===a){t+=" ".concat(a);continue}t+=a}return t};e.forEach(function(e){var n=document.createElement("label"),a=e.id,r=t(e.name);n.classList.add("field-label"),n.htmlFor=a,n.textContent=r,e.parentElement.insertAdjacentElement("afterbegin",n),e.placeholder="Please write ".concat(r)});
+//# sourceMappingURL=index.5f042f0b.js.map
